@@ -1,9 +1,7 @@
 Dataset 1: Classification
-The dataset, called FARS, is a collection of statistics of US road traffic accidents. The class label (target variable) is about the severity of the accident. It has 20 features and over 100K examples. The dataset is available in Canvas as a CSV file, in which the last column contains the class labels: https://ncl.instructure.com/courses/59112/modules/items/3547579
+The dataset, called FARS, is a collection of statistics of US road traffic accidents. The class label (target variable) is about the severity of the accident. It has 20 features and over 100K examples.
 
-What you need to do:
-You will need to perform the following steps on the dataset:
-
+What is done with dataset 1:
 EDA
 Data normalisation
 Split the data into training and test sets using cross-validation
