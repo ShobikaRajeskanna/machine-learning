@@ -14,17 +14,16 @@ Provide a short report on which approaches you used and which gave the best resu
 Dataset 2: Regression
 In this part of the coursework working at regession problem - predicting the growth rate of a bacteria. The provided dataset contains results from a set of experiments where we grew bacteria of different strains and under different conditions (CO2 availability, light, etc..) to compute a growth curve for the bacteria - represented by the variables 'a' and 'mu'. My job is to predict the results of the experiment - 'a' and 'mu' (these are the growth-rate parameters for the bacteria).
 
-
 The CSV contains 7 fields as follows:
 
-variable	description
-n_cyanos	The number of Cyanobacteria available at the start
-co2	The amount of CO2 available
-light	The amount of light available
-SucRatio	How good the bacteria is at producing sucrose
-Nsample	Experiment number
-a	Maximum number of bacteria seen (Target variable)
-mu	Growth rate of bacteria (Target variable)
+1.variable	description
+2.n_cyanos	The number of Cyanobacteria available at the start
+3.co2	The amount of CO2 available
+4.light	The amount of light available
+5.SucRatio	How good the bacteria is at producing sucrose
+6.Nsample	Experiment number
+7.a	Maximum number of bacteria seen (Target variable)
+8.mu	Growth rate of bacteria (Target variable)
 What is done with dataset 2:
 EDA
 Data normalisation
@@ -32,8 +31,3 @@ Split the data into train/test/validate
 Develop two machine learning pipelines for predicting 'a' and 'mu'. This should include hyperparameter tuning. Note: This is not two pipelines one for 'a' one for 'mu'... but two pipelines for 'a', two for 'mu'...
 Present the results for your models using the most appropriate set of metrics.
 Provide a short report on which approaches you used and which gave the best results. It would be good to consider why particular models gave the best results.
-Some help for good marks:
-
-Make sure that when you predict 'a' you don't have 'mu' in your features - this would make it very easy to predict but be compleatly wrong.
-Remember that this is a regression problem and use pipelines that are appropriate for this.
-Hyperparameters can be crucial to get good results here.
