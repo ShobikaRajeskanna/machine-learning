@@ -21,3 +21,15 @@ Split the data into train/test/validate
 Develop two machine learning pipelines for predicting 'a' and 'mu'. This should include hyperparameter tuning. Note: This is not two pipelines one for 'a' one for 'mu'... but two pipelines for 'a', two for 'mu'...
 Present the results for your models using the most appropriate set of metrics.
 Provide a short report on which approaches you used and which gave the best results. It would be good to consider why particular models gave the best results.
+
+Dataset 3: NLP
+In this part of the coursework I wasworking at a dataset containing text from news articles. These are stored in a CSV file, however, as the news articles use commas I used a tab as the separator when reading in the file.
+The file contains just one feature - the news story, one per line.
+
+What is done with dataset 3:
+EDA
+Build a pipline which can transform the text into a format which can be handled by a machine learning model
+Work out how many types of news articles are present in the dataset
+Present the results for your work in the most appropriate means.
+Provide a short report on which approaches you used and which gave the best results.
+
