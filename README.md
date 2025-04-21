@@ -8,3 +8,32 @@ Split the data into training and test sets using cross-validation
 Develop two machine learning pipelines for classifying the severity of the accident
 Present the results for your pipeline using the most appropriate set of metrics.
 Provide a short report on which approaches you used and which gave the best results. It would be good to consider why particular pipelines gave the best results.
+
+
+
+Dataset 2: Regression
+In this part of the coursework working at regession problem - predicting the growth rate of a bacteria. The provided dataset contains results from a set of experiments where we grew bacteria of different strains and under different conditions (CO2 availability, light, etc..) to compute a growth curve for the bacteria - represented by the variables 'a' and 'mu'. My job is to predict the results of the experiment - 'a' and 'mu' (these are the growth-rate parameters for the bacteria).
+
+
+The CSV contains 7 fields as follows:
+
+variable	description
+n_cyanos	The number of Cyanobacteria available at the start
+co2	The amount of CO2 available
+light	The amount of light available
+SucRatio	How good the bacteria is at producing sucrose
+Nsample	Experiment number
+a	Maximum number of bacteria seen (Target variable)
+mu	Growth rate of bacteria (Target variable)
+What is done with dataset 2:
+EDA
+Data normalisation
+Split the data into train/test/validate
+Develop two machine learning pipelines for predicting 'a' and 'mu'. This should include hyperparameter tuning. Note: This is not two pipelines one for 'a' one for 'mu'... but two pipelines for 'a', two for 'mu'...
+Present the results for your models using the most appropriate set of metrics.
+Provide a short report on which approaches you used and which gave the best results. It would be good to consider why particular models gave the best results.
+Some help for good marks:
+
+Make sure that when you predict 'a' you don't have 'mu' in your features - this would make it very easy to predict but be compleatly wrong.
+Remember that this is a regression problem and use pipelines that are appropriate for this.
+Hyperparameters can be crucial to get good results here.
